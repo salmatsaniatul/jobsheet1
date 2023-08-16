@@ -1,7 +1,7 @@
 import random
-from guess import angka
+from guess import Angka
 
-tebak = angka()
+tebak = Angka()
 
 tebak.jawaban = random.randint(1, 10)
 
